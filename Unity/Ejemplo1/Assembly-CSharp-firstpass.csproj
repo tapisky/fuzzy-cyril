@@ -5,11 +5,11 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{D895C13C-0707-D299-452B-8BC68317B563}</ProjectGuid>
+	<ProjectGuid>{16D2CDA6-0DF1-CDA6-548E-5404943EBB87}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
-	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
 	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
 	<FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -44,11 +44,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\BackgroundMusic.cs" />
-     <Compile Include="Assets\ChangeLight.cs" />
-     <Compile Include="Assets\CollisionBouncing.cs" />
-     <Compile Include="Assets\CollisionDetection.cs" />
-     <Compile Include="Assets\InputClass.cs" />
+     <Compile Include="Assets\Standard Assets\SharpMikCommon.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
